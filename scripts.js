@@ -16,7 +16,7 @@ console.log(arm);
 let f;
 for (let i = 2; i <= Math.trunc(num/2); i++) {
     if (num % i == 0) {
-        let f = 0;
+        f = 0;
         break;
     }
 }
